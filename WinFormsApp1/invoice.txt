@@ -1,0 +1,17 @@
+            PHARMAFAMILY
+          Nit: 22439955-4
+  Dirección: Calle 42B # 8D - 40 
+     Barranquilla - Atlantico
+            Tel. 3284307
+-----------------------------------------
+Cliente: {{cliente.nombreCompleto}}
+Identificador: {{cliente.Identificador}}
+-----------------------------------------
+Descripcion      Cant.   Precio   Total
+{{#productos}}
+{{descripcion:19}}{{cantidad:5}}{{precio:9,C0}}{{total:C0}}
+{{/productos}}
+
+
+
+                Total:       {{totalFactura:C0}}
